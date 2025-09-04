@@ -1,13 +1,13 @@
 package mascotas;
 
-import comida.EstrategiaComida;
+import comida.Comida;
 
 public abstract class Mascota {
     protected String nombre;
     protected double peso;
-    protected EstrategiaComida estrategia;
+    protected Comida estrategia;
 
-    public Mascota(String nombre, double peso, EstrategiaComida estrategia) {
+    public Mascota(String nombre, double peso, Comida estrategia) {
         this.nombre = nombre;
         this.peso = peso;
         this.estrategia = estrategia;

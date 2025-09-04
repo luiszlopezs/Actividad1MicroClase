@@ -1,9 +1,9 @@
 package mascotas;
 
-import comida.EstrategiaComida;
+import comida.Comida;
 
 public class Conejo extends Mascota {
-    public Conejo(String nombre, double peso, EstrategiaComida estrategia) {
+    public Conejo(String nombre, double peso, Comida estrategia) {
         super(nombre, peso, estrategia);
     }
 }

@@ -27,7 +27,7 @@ public class Main {
         int opcionComida = sc.nextInt();
 
         // Estrategia de comida
-        EstrategiaComida comida = null;
+        Comida comida = null;
         switch (opcionComida) {
             case 1:
                 comida = new Pienso();
